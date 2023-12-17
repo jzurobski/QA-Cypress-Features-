@@ -5,7 +5,7 @@ var valores_campos = 7
 describe('Funcionalidade Página de Produtos', () => {
 
 beforeEach(() => {
-    cy.visit('http://lojaebac.ebaconline.art.br/produtos/')
+    cy.visit('produtos/')
 });
 
     it('Deve selecionar um produto da lista', () => {
@@ -18,7 +18,7 @@ beforeEach(() => {
         
     });
 
-    it.only('Deve adicionar um produto ao carrinho', () => {
+    it('Deve adicionar um produto ao carrinho', () => {
         cy.get('[class="product-block grid"]')
             .contains('Abominable Hoodie')
             .click()
@@ -32,6 +32,12 @@ beforeEach(() => {
 
         
     });
-    
+    it.only('Deve adicionar produtos ao carrinho usando Comando Customizado', () => {
+        cy.addProdutos('Arcadio Gym Short','36', 'Blue', 3)
+    });
+
+    it.only('Deve adicionar produtos ao carrinho usando Comando Customizado 2', () => {
+        cy.addProdutos('Ariel Roll Sleeve Sweatshirt','XL', 'Purple', 2)
+    });
 });
 

@@ -6,9 +6,6 @@ beforeEach(() => {
     cy.visit('minha-conta/')
 });
 
-afterEach(() => {
-    cy.screenshot()
-});
 
 context('Funcionalidade Login', () =>{
     it('Deve fazer login com sucesso', () => {
