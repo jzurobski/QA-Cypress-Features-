@@ -32,11 +32,11 @@ beforeEach(() => {
 
         
     });
-    it.only('Deve adicionar produtos ao carrinho usando Comando Customizado', () => {
+    it('Deve adicionar produtos ao carrinho usando Comando Customizado', () => {
         cy.addProdutos('Arcadio Gym Short','36', 'Blue', 3)
     });
 
-    it.only('Deve adicionar produtos ao carrinho usando Comando Customizado 2', () => {
+    it('Deve adicionar produtos ao carrinho usando Comando Customizado 2', () => {
         cy.addProdutos('Ariel Roll Sleeve Sweatshirt','XL', 'Purple', 2)
     });
 });
