@@ -1,0 +1,47 @@
+[
+{
+    "nome": "Ana",
+    "sobrenome": "Lucia",
+    "empresa": "EBAC",
+    "endereco": "Av. Paulista",
+    "numero":"200",
+    "pais":"Brasil",
+    "cidade":"Sao Paulo",
+    "estado": "Sao Paulo",
+    "cep": "91430-112",
+    "telefone": "191991991",
+    "email": "teste@teste.com"
+},
+
+{
+    "nome": "JC",
+    "sobrenome": "Carlos",
+    "empresa": "EBAC1",
+    "endereco": "Av. Sao Joao",
+    "numero":"2030",
+    "pais":"Brasil",
+    "cidade":"Rio de Janeiro",
+    "estado": "Rio de Janeiro",
+    "cep": "91430-111",
+    "telefone": "947758333",
+    "email": "teste2@teste.com"
+
+},
+
+{
+    "nome": "Test2",
+    "sobrenome": "Teste3",
+    "empresa": "EBAC3",
+    "endereco": "Av. Sao Carlos",
+    "numero":"2040",
+    "pais":"Brasil",
+    "cidade":"Porto Alegre",
+    "estado": "Rio Grande do Sul",
+    "cep": "91430-113",
+    "telefone": "94747474",
+    "email": "teste3@teste.com"
+
+}
+
+
+]
